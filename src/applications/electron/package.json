@@ -3,7 +3,7 @@
   "name": "spooky-ide",
   "description": "Spooky Manufacturing's Quantum Integrated Development Environment",
   "productName": "SpookyIDE",
-  "version": "1.17.2",
+  "version": "0.0.1",
   "main": "scripts/theia-electron-main.js",
   "license": "EPL-2.0 OR GPL-2.0 WITH Classpath-exception-2.0",
   "author": "Noah Wood <noah@spookymanufacturing.com>",
@@ -122,7 +122,8 @@
     "vscjava.vscode-java-debug": "https://open-vsx.org/api/vscjava/vscode-java-debug/0.30.0/file/vscjava.vscode-java-debug-0.30.0.vsix",
     "vscjava.vscode-java-test": "https://open-vsx.org/api/vscjava/vscode-java-test/0.26.1/file/vscjava.vscode-java-test-0.26.1.vsix",
     "vscjava.vscode-maven": "https://open-vsx.org/api/vscjava/vscode-maven/0.21.2/file/vscjava.vscode-maven-0.21.2.vsix",
-    "vscjava.vscode-java-dependency": "https://open-vsx.org/api/vscjava/vscode-java-dependency/0.16.0/file/vscjava.vscode-java-dependency-0.16.0.vsix"
+    "vscjava.vscode-java-dependency": "https://open-vsx.org/api/vscjava/vscode-java-dependency/0.16.0/file/vscjava.vscode-java-dependency-0.16.0.vsix",
+    "NoahGWood.openqasm-language-support": "https://github.com/NoahGWood/OpenQASM-LanguageSupport/releases/download/initrelease/openqasm-language-support-0.0.1.vsix"
   },
   "theiaPluginsExcludeIds": [
     "vscode.extension-editing",
