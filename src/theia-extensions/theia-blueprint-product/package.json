@@ -1,0 +1,50 @@
+{
+  "private": true,
+  "name": "theia-blueprint-product",
+  "version": "1.17.2",
+  "description": "Eclipse Theia Blueprint Product Branding",
+  "dependencies": {
+    "@theia/core": "1.17.2",
+    "@theia/getting-started": "1.17.2",
+    "@theia/vsx-registry": "1.17.2",
+    "@theia/workspace": "1.17.2",
+    "inversify": "^5.1.1"
+  },
+  "devDependencies": {
+    "rimraf": "^2.7.1",
+    "tslint": "^5.12.0",
+    "typescript": "^3.9.2"
+  },
+  "theiaExtensions": [
+    {
+      "frontendElectron": "lib/browser/theia-blueprint-frontend-module",
+      "backend": "lib/node/theia-blueprint-backend-module"
+    }
+  ],
+  "keywords": [
+    "theia-extension"
+  ],
+  "license": "EPL-2.0 OR GPL-2.0 WITH Classpath-exception-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eclipse-theia/theia-blueprint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eclipse-theia/theia-blueprint/issues"
+  },
+  "homepage": "https://github.com/eclipse-theia/theia-blueprint",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "prepare": "yarn clean && yarn build",
+    "clean": "rimraf lib *.tsbuildinfo",
+    "build": "tsc -b",
+    "lint": "eslint --ext js,jsx,ts,tsx src",
+    "lint:fix": "eslint --ext js,jsx,ts,tsx src --fix"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  }
+}
