@@ -44,7 +44,6 @@
     "@theia/external-terminal": "1.17.2",
     "@theia/file-search": "1.17.2",
     "@theia/filesystem": "1.17.2",
-    "@theia/getting-started": "1.17.2",
     "@theia/keymaps": "1.17.2",
     "@theia/markers": "1.17.2",
     "@theia/messages": "1.17.2",
